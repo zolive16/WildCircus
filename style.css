@@ -1,0 +1,283 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* Ecris ici ton code CSS */
+
+
+body {
+    background: url('https://i.postimg.cc/YSN37L1j/fond.jpg');
+    font-family: 'Amatic SC', 'Roboto', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    width: 100%;
+}
+
+#bloc_page {
+    max-width: 900px;
+    margin: auto;
+    min-width: 320px;
+}
+
+header {
+    position: relative;
+}
+
+#container {
+    display: inline-block;
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#container h1 {
+    font-size: 1.3em;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+
+header h1 {
+    font-size: 5em;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+
+#logo,
+header h1 {
+    display: inline-block;
+    margin-bottom: 0px;
+    font-family: 'Amatic SC', sans-serif;
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+}
+
+header h2 {
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+nav {
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    letter-spacing: 0.2em;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.3em;
+    color: #ffffff;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    border-bottom: 3px solid crimson;
+}
+
+#wild_circus {
+    margin-top: 15px;
+    height: 400px;
+    border-radius: 5px;
+    background: url('https://i.postimg.cc/T3D0k41V/elephant.jpg') no-repeat;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+    font-size: -webkit-xxx-large;
+    padding-top: 200px;
+}
+
+#wild-circus,
+h1 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#wild-description {
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    color: white;
+    font-size: 0.8em;
+    height: 200px;
+}
+
+#wild-description,
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wild-description,
+span {
+    color: crimson;
+}
+
+section {
+    position: relative;
+}
+
+.wild a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.2em;
+}
+
+.wild {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.wild span {
+    color: crimson;
+}
+
+caption {
+    color: #fff;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+
+#performances,
+#prices,
+#contact,
+#about {
+    text-align: center;
+    background: crimson;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+    opacity: 0.5;
+    color: #fff;
+    letter-spacing: 0.5em;
+}
+
+.about-us,
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.box {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box p {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.box h3 {
+    text-align: center;
+    color: crimson;
+    letter-spacing: 0.5em;
+}
+
+.box li {
+    list-style-type: none;
+    width: 25%;
+    display: inline-block;
+    margin-right: auto;
+}
+
+.box img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+.box ul {
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.line {
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+    background: rgb(87, 87, 87);
+    border: 1px solid #fff;
+    margin: 50px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+thead th {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #fff;
+    width: 125px;
+}
+
+tbody td {
+    text-align: center;
+    border: 1px solid #fff;
+    width: 100px;
+    height: 40px;
+}
+
+tbody tr td th {
+    font-weight: 400;
+    color: #000;
+    font-size: 13px;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 1px solid #000;
+}
+
+.form {
+    width: 430px;
+    margin: auto;
+    padding: 60px 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 15px 10px 20px 10px #1c1a19;
+    font-family: 'Roboto', sans-serif;
+}
+
+input,
+textarea {
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+}

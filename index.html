@@ -1,0 +1,173 @@
+<!-- Afin de valider ton code HTML, fais un copier-coller de ce dernier et rends-toi sur https://validator.w3.org/#validate_by_input.
+Click sur l'onglet "Validate by Direct Input" et colle ton code HTML, click ensuite sur le bouton "Check", et tu verras ensuite (si tu en as) les erreurs HTML s'afficher plus bas.
+Tu peux jeter un oeil par ici pour en savoir un peu plus: https://www.243tech.com/valider-vos-codes-html-et-css-sur-validator-w3-org/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Wild Circus</title>
+</head>
+
+<body>
+    <div id="bloc_page">
+        <header>
+            <div id="container">
+                <img src="https://i.postimg.cc/zfYj4FH9/logo.png" alt="Logo de la Wild Circus" id="logo">
+                <h1 class="wild"><a href="index.html">W<span>i</span>ld C<span>i</span>rcus</a></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <!-- TODO: Les liens du menu doivent nous emmener vers les sections correspondantes dans la page -->
+                    <li><a href="#performances">Performances</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#prices">Prices</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="wild_circus">
+            <div id="wild_description">
+                <h1>W<span>i</span>ld
+                    C<span>i</span>rcus</h1>
+            </div>
+        </div>
+
+        <section>
+            <h2 id="performances">Performances</h2>
+            <!-- TODO: En utilisant du css place ces trois performances ("lough", "dream, "marvel at") sur la même ligne en enlevant le point généré par la balise "li". Attention, utilise bien le css pour aligner les éléments, tu ne dois pas enlever les balises "li"-->
+            <div class="box">
+
+                <ul>
+                    <!-- performance 1 -->
+                    <li>
+                        <img src="https://cdn.pixabay.com/photo/2016/02/24/08/31/girl-1219339_960_720.jpg" width="200"
+                            height="200" alt="wild picture">
+                        <h3>Laugh</h3>
+                        <p>As an adult, come and discover our irresistible clowns, between practical jokes and pranks
+                            let yourself be carried away by their joy and fall back into childhood.</p>
+                    </li>
+                    <!-- performance 2 -->
+                    <li>
+                        <img src="https://cdn.pixabay.com/photo/2017/10/20/10/58/elephant-2870777_960_720.jpg"
+                            width="200" height="200" alt="elephant picture">
+                        <h3>Dream</h3>
+                        <p>Let yourself be carried away in a world where the real and the imaginary are one, in the
+                            company of our talented magicians, discover a wonderful world limited only by your
+                            imagination.</p>
+                    </li>
+                    <!-- performance 3 -->
+                    <li>
+                        <img src="https://cdn.pixabay.com/photo/2019/04/06/05/17/wallpaper-4106667_960_720.jpg"
+                            width="200" height="200" alt="lion picture">
+                        <h3>Marvel at</h3>
+                        <p>Tame the untameable in the company of our tamers, between roar and razor-sharp claws, watch
+                            these fierce felines turn into sweet kittens.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="line">
+            <hr />
+        </div>
+        <section>
+            <div class="about_us">
+                <h2 id="about">About Us</h2>
+                <p><cite>"Time is a circus, always packing and leaving".</cite> By Ben Hecht</p>
+                <p>Compagnie Wild Circus was created in 2002 and is part of the contemporary circus world, drawing
+                    inspiration from different types of theatre (baroque, classical, street...). She uses the audacity
+                    and beauty of circus techniques.
+                    The company offers 5 creations that it takes to France and abroad. </p>
+                <!-- TODO: Cette section n'a pas encore été réalisée, tu as carte blanche pour nous montrer ta créativité -->
+            </div>
+        </section>
+
+        <hr />
+
+        <section>
+            <h2 id="prices">Prices</h2>
+            <div class="table">
+                <table>
+                    <caption>Ticket Prices</caption>
+                    <thead>
+                        <!--En-tête du tableau-->
+                        <tr>
+                            <th></th>
+                            <th>Adults</th>
+                            <th>Children under 12 years</th>
+                            <th>Groups (more than 10 people)</th>
+                            <th>Schools</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <!--Corps du tableau-->
+                        <tr>
+                            <td>Weeks off Wednesday</td>
+                            <td>8$</td>
+                            <td>12$</td>
+                            <td>10$</td>
+                            <td>6$</td>
+                        </tr>
+                        <tr>
+                            <td>Weekends and Wednesday</td>
+                            <td>10$</td>
+                            <td>15$</td>
+                            <td>12$</td>
+                            <td>8$</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- TODO:  Réalise un tableau qui présente les différents prix. Exemple (aggrandis la fenêtre en largeur pour bien voir l'exemple ci-dessous) :
+
+                                | Adultes | Enfants de moins de 12 ans | Groupes (plus de 10 personnes) | Ecoles
+        Semaines hors mercredi  |         |                         |                                |
+        week-end et mercredi    |         |                         |                                |
+      -->
+        </section>
+
+        <hr />
+
+        <section>
+            <h2 id="contact">Contact Us</h2>
+            <!-- TODO: Réalise un formulaire de contact avec les champs email et message plus un bouton pour envoyer le message. Pense bien à ajouter les labels pour les différents champs
+        Ce formulaire n'a pas besoin d'être fonctionnel, réalise juste la mise en forme.
+      -->
+            <div class="form">
+                <form action="#" method="POST">
+                    <fieldset>
+                        <label for="name">Name :</label>
+                        <input type="text" id="name" placeholder="Enter your full name">
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" placeholder="Enter your email address">
+                        <label for="message">Message :</label>
+                        <textarea id="message" placeholder="Enter your message"></textarea>
+                        <input type="submit" value="Send message">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <!-- TODO: Entre ton nom et prénom.
+        Mets en place un lien vers le site de la Wild Code School (https://wildcodeschool.fr) ainsi que le lien vers ton profil public France.ioi (avec les 16 premiers exercies de réalisés).
+        Tu peux egalement mettre un lien sur ton nom vers ton site, ton blog ou ton profil github ou linkedin, si tu en a un.
+       -->
+            <p>Wild Circus by Stéphanie Collignon - <a href="http://www.france-ioi.org/user/perso.php?sLogin=zolive16"
+                    target="blank">-France IOI</a> - <a href="https://www.sololearn.com/Profile/13442533"
+                    target="blank">-Sololearn</a> - <a href="https://wildcodeschool.fr/bordeaux/" target="blank">-Wild
+                    Code School</a> - (24/04/2019)</p>
+        </footer>
+    </div>
+</body>
+
+</html>
